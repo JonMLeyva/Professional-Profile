@@ -47,14 +47,14 @@ nav ul{
 }
 
 .skills{
-    flex:1 0 200px ;
+    flex:1 0 200px;
     padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
 }
 
-.contact{
+.placeholder{
     flex:  1 0 200px;
     padding: 10px;
     text-align: center;
