@@ -4,6 +4,11 @@ body{
     line-height: 1.5;
     margin: 0;
 }
+main{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
 
 header{
     background-color: #333;
@@ -18,5 +23,37 @@ h1,h2{
 nav ul{
     list-style: none;
     margin: 0;
-    padding: 0%;
+    padding: 0;
+}
+
+.about{
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.education{
+    flex: 1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.skills{
+    flex:1 0 200px ;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.contact{
+    flex:  1 0 200px;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width:  1px;
 }
