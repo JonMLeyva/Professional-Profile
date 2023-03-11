@@ -14,6 +14,7 @@ header{
     background-color: #969494;
     color: #fff;
     padding: 20px;
+    text-align: center;
 }
 
 h1,h2{
@@ -29,6 +30,14 @@ nav ul{
     margin: 0;
     padding: 0;
 }
+.cards {
+    flex: 4;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
 .about{
     flex: 1 0 200px;
