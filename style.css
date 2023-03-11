@@ -1,7 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family:'Courier New', Courier, monospace;
-    font-size: 16px;
-    line-height: 1.5;
     margin: 0;
 }
 main{
@@ -21,8 +22,9 @@ h1,h2{
     margin: 0;
 }
 nav {
-    display: flex;
     background-color: bisque;
+    text-decoration: none;
+    text-align: center;
 }
 
 nav ul{
